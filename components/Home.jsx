@@ -23,19 +23,19 @@ export default function Home(){
                 {/* Welcome message */}
                 <h2 className="text-size-50 text-center"><span className="">-</span> Welcome to my page <span className="">-</span></h2>
                 {/* Links and simple description */}
-                <Link to="/about">
+                <Link to="/portfolio-project/about">
                     <h3 className="text-size-30 margin-bottom-0 text-center">▸About</h3>
                 </Link>
                 <p className="text-size-20 margin-bottom-10 text-center">Who I am and my resume</p>
-                <Link to="/project">
+                <Link to="/portfolio-project/project">
                     <h3 className="text-size-30 margin-bottom-0 text-center">▸Projects</h3>
                 </Link>
                 <p className="text-size-20 margin-bottom-10 text-center">Some software projects</p>
-                <Link to="/service">
+                <Link to="/portfolio-project/service">
                     <h3 className="text-size-30 margin-bottom-0 text-center">▸Service</h3>
                 </Link>
                 <p className="text-size-20 margin-bottom-10 text-center">Services which I can offer</p>
-                <Link to="/contact">
+                <Link to="/portfolio-project/contact">
                     <h3 className="text-size-30 margin-bottom-0 text-center">▸Contact</h3>
                 </Link>
                 <p className="text-size-20 margin-bottom-10 text-center">Contact information</p>

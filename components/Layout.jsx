@@ -17,18 +17,18 @@ export default function Layout() {
     <>
       <header>
         {/* Logo and click to Home page */}
-        <Link to="/" className="logo">
+        <Link to="/portfolio-project" className="logo">
           <img src={logo} alt=""></img>
         </Link>
         {/* navigation bar */}
         <nav>
           <div className="top-nav">
             <ul>
-              <li><Link to="/" className='text-size-20'>Home</Link></li>
-              <li><Link to="/about" className='text-size-20'>About</Link></li>
-              <li><Link to="/project" className='text-size-20'>Projects</Link></li>
-              <li><Link to="/service" className='text-size-20'>Services</Link></li>
-              <li><Link to="/contact" className='text-size-20'>Contact</Link></li>
+              <li><Link to="/portfolio-project" className='text-size-20'>Home</Link></li>
+              <li><Link to="/portfolio-project/about" className='text-size-20'>About</Link></li>
+              <li><Link to="/portfolio-project/project" className='text-size-20'>Projects</Link></li>
+              <li><Link to="/portfolio-project/service" className='text-size-20'>Services</Link></li>
+              <li><Link to="/portfolio-project/contact" className='text-size-20'>Contact</Link></li>
             </ul>
           </div>
         </nav>

@@ -22,12 +22,12 @@ const MainRouter = () => {
         <div>
                         <Layout/>
                         <Routes>
-                                <Route exact path="/" element={<Home />} />
-                                <Route exact path="/about" element={<About />} />
-                                <Route exact path="/service" element={<Service />} />
-                                <Route exact path="/project" element={<Project />} />
-                                <Route exact path="/contact" element={<Contact />} />
-                                <Route exact path="/layout" element={<Layout />} />
+                                <Route path="/portfolio-project" element={<Home />} />
+                                <Route path="/portfolio-project/about" element={<About />} />
+                                <Route path="/portfolio-project/service" element={<Service />} />
+                                <Route path="/portfolio-project/project" element={<Project />} />
+                                <Route path="/portfolio-project/contact" element={<Contact />} />
+                                <Route path="/portfolio-project/layout" element={<Layout />} />
                         </Routes>
                 </div>
         )

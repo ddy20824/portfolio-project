@@ -48,7 +48,7 @@ export default function Contact() {
       let navigate = useNavigate();
       const closeDialog = () => {
         document.getElementById("modal").close();
-        navigate("/");
+        navigate("/portfolio-project");
       };
 
     return (
